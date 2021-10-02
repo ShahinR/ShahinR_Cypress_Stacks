@@ -13,13 +13,9 @@ Clone the repository in your workspace
 ```bash
 git clone git@github.com:ShahinR/mm-QA-technical-test-PRIVATE.git
 ```
-Run the Makefile to configure the project
-```bash
-make install
-```
 Run the Cypress installation
 ```bash
-npx cypress install
+npm install cypress --save-dev
 ```
 Test the Cypress install
 ```bash
