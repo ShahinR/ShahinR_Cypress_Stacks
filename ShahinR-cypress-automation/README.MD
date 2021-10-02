@@ -10,9 +10,7 @@ This repository is used to store all the automated tests and configurations for 
 
 # Installation
 Clone the repository in your workspace
-```bash
-git clone git@github.com:ShahinR/mm-QA-technical-test-PRIVATE.git
-```
+
 Run the Cypress installation
 ```bash
 npm install cypress --save-dev
