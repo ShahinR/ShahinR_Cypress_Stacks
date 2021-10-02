@@ -15,13 +15,6 @@ Run the Cypress installation
 ```bash
 npm install cypress --save-dev
 ```
-Run Cypress test execution dashboard
-```bash
-npx cypress open
-````
-
-**The Cypress GUI will start automatically at the end of the process.**
-
 # Execute tests
 ## Launch Cypress with the graphical interface
 This option allows you to select wich tests you want to run (one or all).
@@ -36,51 +29,4 @@ This is an example using the `run --spec` command.
 
 ```bash
 npx cypress run --spec './cypress/integration/FO/<<YOUR_SCRIPT>>.js'
-```
-
-# Percy/cypress
-[Percy](https://percy.io) visual testing for [Cypress](https://cypress.io).
-
-## Usage
-This is an example using the `cy.percySnapshot` command.
-
-```javascript
-describe('My app', () => {
-  it('should look good', () => {
-    cy.get('body').should('have.class', 'finished-loading');
-    cy.percySnapshot();
-
-    cy.get('button').click();
-    cy.percySnapshot('Clicked button');
-  });
-});
-```
-
-```bash
-npx percy exec -- cypress run
-````
-
-## Configuration
-To take a snapshot with Percy, just run the following command:
-```bash
-cy.percySnapshot()
-```
-You can configure different options to the snapshot with the following command:
-```bash
-cy.percySnapshot([name][, options])
-```
-Here's the parameters list:
-- `name` - The snapshot name; must be unique to each snapshot; defaults to the full test title
-- `options` - Additional snapshot options (overrides any project options)
-  - `options.widths` - An array of widths to take screenshots at
-  - `options.minHeight` - The minimum viewport height to take screenshots at
-  - `options.percyCSS` - Percy specific CSS only applied in Percy's rendering environment
-  - `options.requestHeaders` - Headers that should be used during asset discovery
-  - `options.enableJavaScript` - Enable JavaScript in Percy's rendering environment
-
-## Headless test execution
-This is an example using the `run --spec` command with percy integration.
-
-```bash
-npx percy exec -- cypress run --spec './cypress/integration/FO/<<YOUR_SCRIPT>>.js'
 ```
