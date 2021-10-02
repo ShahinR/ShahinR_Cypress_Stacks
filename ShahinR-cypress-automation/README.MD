@@ -7,7 +7,7 @@ This repository is used to store all the automated tests for the LBO frontend we
 # Installation
 Clone the repository in your workspace
 ```bash
-git clone git@github.com:laboutiqueofficielle/cypress-automation.git
+git clone git@github.com:ShahinR/mm-QA-technical-test-PRIVATE.git
 ```
 Run the Makefile to configure the project
 ```bash
@@ -86,6 +86,3 @@ This is an example using the `run --spec` command with percy integration.
 ```bash
 npx percy exec -- cypress run --spec './cypress/integration/FO/<<YOUR_SCRIPT>>.js'
 ```
-
-## Percy dashboard
-You can find all the Percy's snapshots on the following Dashboard : https://percy.io/cbb17ef2/LBO-Cypress-Percy.
