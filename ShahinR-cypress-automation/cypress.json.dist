@@ -12,5 +12,17 @@
     "custom_password": "test@TEST2021",
     "custom_country": "France",
     "custom_city": "Lyon"
-  }
+  },
+  "db": {
+    "userName": "xx",
+    "password": "xx",
+    "server": "xxx",
+    "options": {
+      "database": "xxx",
+      "encrypt": true,
+      "rowCollectionOnRequestCompletion": true
+    }
+  },
+  "experimentalStudio": true,
+  "projectId": "xxxx"
 }

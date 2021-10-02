@@ -1,9 +1,3 @@
-/**
- * @author      <shahin.rastgar@gmail.com>
- * @copyright   Copyright (c) ShahinR
- * @license     Proprietary
- */
-
 // Import commands.js using ES2015 syntax:
 import './commonCommands'
 import 'cypress-react-selector'

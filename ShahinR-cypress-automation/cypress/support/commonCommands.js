@@ -7,7 +7,7 @@
 // Random customer name in order to have no duplication  
 const uuid = () => Cypress._.random(0, 1e6)
 const RANDOM = uuid()
-const CUSTOM_NAME = `TestUser${RANDOM}`
+const CUSTOM_NAME = `UserTest${RANDOM}`
 
 Cypress.Commands.add('front', (front) => {
   cy.visit(Cypress.env('fo'), {failOnStatusCode: false})
@@ -71,6 +71,28 @@ Cypress.Commands.add('chaiAssertion', (chaiAssertion)=> {
   var assert = chai.assert;    // Using Assert style
   var expect = chai.expect;    // Using Expect style
   var should = chai.should();  // Using Should style
+})
+
+Cypress.Commands.add('CreditCardPayment', (CreditCardPayment) => {
+  const getIframeDocument = (selector) => {
+    return cy.get(selector).its('0.contentDocument').should('exist')
+  }
+  
+  const getIframeBody = (selector) => {
+    return getIframeDocument(selector).its('body').should('not.be.undefined').then(cy.wrap)
+  }
+  
+  getIframeBody('#hipay-custom-number iframe')
+    .find('[name=cardnumber]')
+    .type(Cypress.env('customer_cc_number'))
+
+  getIframeBody('#hipay-custom-date iframe')
+    .find('[name=cc-exp]')
+    .type(Cypress.env('customer_cc_expdate'))
+
+  getIframeBody('#hipay-custom-cvc iframe')
+    .find('[name=cvc]')
+    .type(Cypress.env('customer_cc_cvc'))
 })
 
 Cypress.Commands.add('IgnoreUncaughtExceptions', (IgnoreUncaughtExceptions) => {
