@@ -7,7 +7,7 @@
 // Random customer name in order to have no duplication  
 const uuid = () => Cypress._.random(0, 1e6)
 const RANDOM = uuid()
-const CUSTOM_NAME = `clientTest${RANDOM}`
+const CUSTOM_NAME = `TestUser${RANDOM}`
 
 Cypress.Commands.add('front', (front) => {
   cy.visit(Cypress.env('fo'), {failOnStatusCode: false})
