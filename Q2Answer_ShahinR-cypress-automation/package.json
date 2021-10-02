@@ -1,0 +1,34 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "This repository is used to store all the automated tests for the front-office interface of the LBO application.",
+  "main": "cypress/plugins/index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxxxx/cypress-automation.git"
+  },
+  "author": "s.rastgar@xxxxxxx.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxxxxx/cypress-automation/issues"
+  },
+  "homepage": "https://github.com/xxxxxx/cypress-automation#readme",
+  "devDependencies": {
+    "@percy/cli": "*",
+    "@percy/cypress": "^3.1.0",
+    "@testing-library/cypress": "^7.0.6",
+    "cypress": "^8.5.0",
+    "cypress-file-upload": "^4.1.1",
+    "cypress-iframe": "^1.0.1",
+    "cypress-sql-server": "^1.0.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "cypress-react-selector": "^2.3.6",
+    "cypress-sql-server": "*",
+    "mysql": "github:mysqljs/mysql"
+  }
+}
