@@ -64,54 +64,8 @@ describe('Call LBO front-office and login', () => {
       .and('have.css', 'text-decoration')
     
     cy.get('.col-sm-12 > .btn').click({force : true})
+    
     cy.wait(2000)
-
-/*
-        // Add to basket
-        cy.get('.c-product-sizer__submit > .c-btn').click({force: true})
-
-        cy.wait(2000)
-
-        // Visualize the basket 
-        cy.get('.c-basket__action > .c-btn').click({force: true})
-
-        cy.wait(3000)
-
-        // Basket validation 
-        cy.get('#validate-cart')
-          .should('exist')
-          .should('be.visible')
-          .and('have.css', 'text-decoration')
-
-        cy.get('#validate-cart').click()/
-
-        // Select the delivery option (collect-point in our case)
-        cy.wait(2000)
-
-        cy.get(':nth-child(1) > .c-shopping-cart-card')
-          .should('exist')
-          .should('be.visible')
-          .and('have.css', 'text-decoration')
-
-        cy.get('.simplebar-content > .js-loading > [data-key="0"] > .c-al__btn')
-          .should('exist')
-          .should('be.visible')
-
-        cy.get('.simplebar-content > .js-loading > [data-key="0"] > .c-al__btn').click({force : true})
-
-        cy.wait(2000)
-
-        // Credit-card payment process
-        cy.CreditCardPayment({}) 
-        cy.get('#btn-submit').click()
-
-        cy.wait(9000)
-
-        // Successful validation payment
-        cy.get('.c-state-handler > h4')
-          .should('exist')
-          .should('be.visible')
-          .and('contain.text', 'bien été validée' )*/
   })
 
   it('Checkout the cart', function() {
