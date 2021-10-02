@@ -1,5 +1,5 @@
 # Introduction
-This repository is used to store all the automated tests for the LBO frontend website.
+This repository is used to store all the automated tests for the demoblaze frontend website.
 
 # Prerequisites
 - NPM 6.14.8+ (if you want to run tests with the GUI of Cypress)
