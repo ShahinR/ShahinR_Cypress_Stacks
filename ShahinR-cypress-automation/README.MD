@@ -1,5 +1,8 @@
 # Introduction
-This repository is used to store all the automated tests for the LBO frontend website.
+This repository is used to store all the automated tests and configurations for Manomano QA technical test.
+
+1. **User signs up in the platform**
+2. **User perform an order of 2 items**
 
 # Prerequisites
 - NPM 6.14.8+ (if you want to run tests with the GUI of Cypress)
