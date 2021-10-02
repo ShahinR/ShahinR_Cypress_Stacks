@@ -5,14 +5,14 @@ This repository is used to store all the automated tests for the LBO frontend we
 - NPM 6.14.8+ (if you want to run tests with the GUI of Cypress)
 
 # Installation
-Clone the repository in your local workspace
+1. Clone the repository in your local workspace
 
-Run the Cypress installation
+2. Run the Cypress installation
 
 ```bash
 npx cypress install
 ```
-Run Chai installation
+3. Run Chai installation
 
 ```bash
 npm install chai
