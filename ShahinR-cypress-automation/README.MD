@@ -17,9 +17,9 @@ Run the Cypress installation
 ```bash
 npm install cypress --save-dev
 ```
-Test the Cypress install
+Run Cypress test execution dashboard
 ```bash
-npm test
+npx cypress open
 ````
 
 **The Cypress GUI will start automatically at the end of the process.**
