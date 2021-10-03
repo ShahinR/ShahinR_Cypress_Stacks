@@ -1,5 +1,5 @@
 # Introduction
-This repository is used to store all the automated tests for the LBO frontend website.
+This repository is used to store all the automated tests for manomano technical test.
 
 # Prerequisites
 - NPM 6.14.8+ (if you want to run tests with the GUI of Cypress)
@@ -36,6 +36,6 @@ npx cypress run --spec './cypress/integration/<<YOUR_SCRIPT>>.js'
 This is an example using the `run --spec` command with percy integration.
 
 ```bash
-npx exec -- cypress run --spec './cypress/integration/FO/<<YOUR_SCRIPT>>.js'
+npx exec -- cypress run --spec './cypress/integration/<<YOUR_SCRIPT>>.js'
 ```
 
