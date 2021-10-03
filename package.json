@@ -1,7 +1,6 @@
 {
-    "name": "qraft-manomano",
+    "name": "codeceptjs-tests",
     "version": "0.1.0",
-    "private": true,
     "scripts": {
         "e2e": "yarn codeceptjs run --steps"
     },
