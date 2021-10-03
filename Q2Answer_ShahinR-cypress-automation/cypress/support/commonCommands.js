@@ -13,7 +13,7 @@ Cypress.Commands.add('front', (front) => {
   cy.visit(Cypress.env('fo'), {failOnStatusCode: false})
   cy.viewport(1280, 850)
   Cypress.config('responseTimeout', 80000)
- })
+})
 
 Cypress.Commands.add('customInfo', (customInfo) => {
 
@@ -26,7 +26,7 @@ Cypress.Commands.add('customInfo', (customInfo) => {
   cy.get('#sign-password')
     .click()
     .type(Cypress.env('custom_password'))
-  })
+})
   
 Cypress.Commands.add('customerLogin', (customerLogin) => {
   cy.get('#signin2').click({force : true})
@@ -71,28 +71,6 @@ Cypress.Commands.add('chaiAssertion', (chaiAssertion)=> {
   var assert = chai.assert;    // Using Assert style
   var expect = chai.expect;    // Using Expect style
   var should = chai.should();  // Using Should style
-})
-
-Cypress.Commands.add('CreditCardPayment', (CreditCardPayment) => {
-  const getIframeDocument = (selector) => {
-    return cy.get(selector).its('0.contentDocument').should('exist')
-  }
-  
-  const getIframeBody = (selector) => {
-    return getIframeDocument(selector).its('body').should('not.be.undefined').then(cy.wrap)
-  }
-  
-  getIframeBody('#hipay-custom-number iframe')
-    .find('[name=cardnumber]')
-    .type(Cypress.env('customer_cc_number'))
-
-  getIframeBody('#hipay-custom-date iframe')
-    .find('[name=cc-exp]')
-    .type(Cypress.env('customer_cc_expdate'))
-
-  getIframeBody('#hipay-custom-cvc iframe')
-    .find('[name=cvc]')
-    .type(Cypress.env('customer_cc_cvc'))
 })
 
 Cypress.Commands.add('IgnoreUncaughtExceptions', (IgnoreUncaughtExceptions) => {
