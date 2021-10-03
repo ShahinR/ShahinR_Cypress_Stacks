@@ -20,7 +20,7 @@ npm install chai
 # Execute tests 
 ## Launch Cypress with the graphical interface (Cypress GUI)
 This option allows you to select wich tests you want to run (one or all).
-Firs you need to have _Cypress_ installed locally (be sure to install the same version than this project).
+Firstly, you need to have _Cypress_ installed locally (be sure to install the same version than this project).
 ```bash
 npx cypress open
 ```
