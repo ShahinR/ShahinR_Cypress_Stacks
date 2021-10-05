@@ -1,5 +1,5 @@
 # Introduction
-This repository is used to store all the automated tests for manomano technical test.
+This repository is used to store all the automated tests for DemoBlaze frontend website (https://on.cypress.io/cypress.schema.json).
 
 # Prerequisites
 - NPM 6.14.8+ (if you want to run tests with the GUI of Cypress)
