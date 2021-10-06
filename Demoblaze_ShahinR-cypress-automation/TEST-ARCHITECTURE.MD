@@ -1,4 +1,4 @@
-# Test plan/architecture is as follows :rocket: 
+## Test plan/architecture is as follows :rocket: 
 The scripts (.js) are located in : 
 
 ```bash
