@@ -1,5 +1,5 @@
-## Test plan/architecture is as follows :rocket: 
-The scripts (.js) are located in : 
+# Test plan/architecture is as follows :rocket: 
+**The scripts (.js) are located in : 
 
 ```bash
 /../Q2Answer_ShahinR-cypress-automation/cypress/integration :
