@@ -6,6 +6,9 @@ The scripts (.js) are located in :
 
 1. Case1_userSignup.js
 2. Case2_userCheckout.js
+* /../Q2Answer_ShahinR-cypress-automation/cypress/integration 
+ * Case1_userSignup.js
+ * Case2_userCheckout.js
 ```
 The scripts (.js) are located in : 
 
