@@ -2,7 +2,9 @@
 The scripts (.js) are located in : 
 
 ```bash
-'/../Q2Answer_ShahinR-cypress-automation/cypress/integration ==> Q2_userSignup.js & Q2_userCheckout.js'
+'/../Q2Answer_ShahinR-cypress-automation/cypress/integration :
+1. Case1_userSignup.js
+2. Case2_userCheckout.js'
 ```
 
 # Prerequisites
