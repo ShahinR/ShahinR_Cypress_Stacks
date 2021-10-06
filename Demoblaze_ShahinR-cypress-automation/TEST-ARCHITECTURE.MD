@@ -1,4 +1,4 @@
-# Test plan/architecture is as follows
+# Test plan/architecture is as follows :rocket: 
 The scripts (.js) are located in : 
 
 ```bash
@@ -7,6 +7,8 @@ The scripts (.js) are located in :
 1. Case1_userSignup.js
 2. Case2_userCheckout.js
 ```
+The scripts (.js) are located in : 
+
 
 # Prerequisites
 - NPM 6.14.8+ (if you want to run tests with the GUI of Cypress)
