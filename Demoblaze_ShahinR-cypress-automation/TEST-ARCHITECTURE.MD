@@ -1,5 +1,4 @@
 # Test plan/architecture is as follows
-
 The scripts (.js) are located in : 
 
 ```bash
