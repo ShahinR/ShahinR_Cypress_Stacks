@@ -7,25 +7,22 @@
 1. Case1_userSignup.js
 2. Case2_userCheckout.js
 ```
-The scripts (.js) are located in : 
-
-
-# Prerequisites
-- NPM 6.14.8+ (if you want to run tests with the GUI of Cypress)
-
-# Installation
-1. Clone the repository in your local workspace
-
-2. Run the Cypress installation
+**Commonly custom steps (login details, customer informations, assertion configurations, random data generator, cookies manager etc.) are located in :**
 
 ```bash
-npx cypress install
+/../Q2Answer_ShahinR-cypress-automation/cypress/support :
+
+1. commonCommands.js
+2. Index.js
 ```
-3. Run Chai installation
+**Project configurations (URL, window size, hard coded data etc.) are located in :**
 
 ```bash
-npm install chai
-```
+/../Q2Answer_ShahinR-cypress-automation :
+
+1. Cypress.json
+2. jsconfig.json
+
 # Execute tests 
 ## Launch Cypress with the graphical interface (Cypress GUI)
 This option allows you to select wich tests you want to run (one or all).
