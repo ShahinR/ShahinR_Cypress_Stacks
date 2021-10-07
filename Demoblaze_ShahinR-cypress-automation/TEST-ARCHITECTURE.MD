@@ -23,13 +23,10 @@
 1. Cypress.json
 2. jsconfig.json
 ```
+## Public dashboard with test executions (headless mode) results (videos, success rate etc.)
 
-# Execute tests 
-## Launch Cypress with the graphical interface (Cypress GUI)
-This option allows you to select wich tests you want to run (one or all).
-Firstly, you need to have _Cypress_ installed locally (be sure to install the same version than this project).
 ```bash
-npx cypress open
+**Q2_userSignup.js : https://dashboard.cypress.io/projects/xcos5v/runs/1/specs/fb71f829-2122-43d9-92d4-def11e3552ab/video**
 ```
 Then, you just have to click on the test you want to run.
 
