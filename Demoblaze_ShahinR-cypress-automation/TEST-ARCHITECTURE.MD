@@ -25,7 +25,7 @@
 ```
 **Public dashboard with test executions (headless mode) results (videos, success rate etc.)** :sparkles: 
 
-[Link to Google](https://www.google.com) 
+[Case1_userSignup.js](https://dashboard.cypress.io/projects/xcos5v/runs/1/specs/fb71f829-2122-43d9-92d4-def11e3552ab/video) 
 
 ```bash
 1. Q2_userSignup.js : [a link] https://dashboard.cypress.io/projects/xcos5v/runs/1/specs/fb71f829-2122-43d9-92d4-def11e3552ab/video
