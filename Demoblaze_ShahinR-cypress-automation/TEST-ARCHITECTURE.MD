@@ -22,6 +22,7 @@
 
 1. Cypress.json
 2. jsconfig.json
+```
 
 # Execute tests 
 ## Launch Cypress with the graphical interface (Cypress GUI)
