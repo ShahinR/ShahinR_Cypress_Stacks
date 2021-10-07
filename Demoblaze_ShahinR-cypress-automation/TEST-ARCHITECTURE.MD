@@ -23,22 +23,9 @@
 1. Cypress.json
 2. jsconfig.json
 ```
-### Public dashboard with test executions (headless mode) results (videos, success rate etc.)
+**Public dashboard with test executions (headless mode) results (videos, success rate etc.)**
 
 ```bash
-**Q2_userSignup.js : https://dashboard.cypress.io/projects/xcos5v/runs/1/specs/fb71f829-2122-43d9-92d4-def11e3552ab/video**
-```
-Then, you just have to click on the test you want to run.
-
-## Launch Cypress in headless mode
-This is an example using the `run --spec` command.
-
-```bash
-npx cypress run --spec './cypress/integration/<<YOUR_SCRIPT>>.js'
-```
-## Headless test execution
-This is an example using the `run --spec` command.
-
-```bash
-npx exec -- cypress run --spec './cypress/integration/<<YOUR_SCRIPT>>.js'
+1. Q2_userSignup.js : https://dashboard.cypress.io/projects/xcos5v/runs/1/specs/fb71f829-2122-43d9-92d4-def11e3552ab/video
+2. Q2_userCheckout.js : https://dashboard.cypress.io/projects/xcos5v/runs/2/specs/1f059a28-b045-42eb-b10e-f02cb496ed1f/video
 ```
