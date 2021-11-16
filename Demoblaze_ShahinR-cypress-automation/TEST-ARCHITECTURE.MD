@@ -25,6 +25,6 @@
 ```
 **Public dashboard with test executions (headless mode) results (videos, success rate etc.)** :sparkles: 
 
-[Case1_userSignup.js](https://dashboard.cypress.io/projects/xcos5v/runs/1/specs/fb71f829-2122-43d9-92d4-def11e3552ab/video)
+[Case1_userSignup.js](https://dashboard.cypress.io/projects/4wm96s/runs/1/test-results/9a6fe5cb-a4f5-4ac0-8342-fbd132a100d6/video)
 
-[Case2_userCheckout.js](https://dashboard.cypress.io/projects/xcos5v/runs/2/specs/1f059a28-b045-42eb-b10e-f02cb496ed1f/video)
+[Case2_userCheckout.js](https://dashboard.cypress.io/projects/4wm96s/runs/2/test-results/5a8e9a65-0596-48f7-902f-991962a0de3b/video)
